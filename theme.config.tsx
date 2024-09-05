@@ -5,16 +5,16 @@ import { useRouter } from 'next/router'
 const config: DocsThemeConfig = {
   project: {
     // 右上角 Github icon 点击跳转信息
-    link: 'https://github.com/hutaod'
+    link: 'https://github.com/SkinCrab'
   },
   // 文档仓库链接
-  docsRepositoryBase: 'https://github.com/hutaod/hutaod.github.io',
+  docsRepositoryBase: 'https://github.com/SkinCrab/csuwiki.github.io',
   useNextSeoProps() {
     const { asPath } = useRouter()
     if (asPath !== '/') {
       return {
         // 设置浏览器标题
-        titleTemplate: '%s – 前端博客和笔记'
+        titleTemplate: '%s – CSUer'
       }
     }
   },
@@ -29,7 +29,7 @@ const config: DocsThemeConfig = {
   },
   // 页面底部版权信息
   footer: {
-    text: `MIT 2023 © Hutao.`
+    text: `MIT 2023 © GBYYY.`
   }
 }
 
