@@ -3,6 +3,7 @@ import type { DocsThemeConfig} from 'nextra-theme-docs';
 import { useRouter } from 'next/router'
 
 const config: DocsThemeConfig = {
+  logo: <span>CSU Wiki</span>,
   project: {
     // 右上角 Github icon 点击跳转信息
     link: 'https://github.com/SkinCrab'
